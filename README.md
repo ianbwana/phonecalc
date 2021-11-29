@@ -91,7 +91,7 @@ The format is "http://138.68.89.212:8000" + endpoint
 
 
 ### Assumptions
-1. There is no need to store the csv file in the database, It is merely a guideline on costs
+1. There is no need to store the csv file in the database, It is a guideline on costs
 2. The hosted version of the application is not running on Debug mode but is not optimised for production either so some environmental variables are still visible.
 3. No need to configure nginx. Gunicorn is sufficient for demo purposes
 
