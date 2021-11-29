@@ -61,7 +61,7 @@ pip install -r requirements.txt
 
 #### Make and run migrations
 ```bash
-python manage.py makemigrations && python3.6 manage.py migrate
+python manage.py makemigrations && python manage.py migrate
 ```
 
 #### Run the app
