@@ -83,6 +83,8 @@ The format is "http://138.68.89.212:8000" + endpoint
 | ------------- | ------------- |------------|
 | /api/v1/docs/  | GET          |  Show the main application endpoints on a Swagger UI
 | /api/v1/users  | GET  | Show all the registered users. Currently just limited to main admin            |
+| /admin/  | GET, POST, PUT, DELETE          |  Admin dasboard
+| /api/v1/users  | GET  | Show all the registered users. Currently just limited to main admin            |
 | api/v1/auth/register  | POST  | Allows user registration          |
 | api/v1/auth/login   | POST  | Allow user login by returning user details and auth token           |
 | api/v1/password-reset/  | POST  | Allows a user to reset their password which is sent to their mail           |
